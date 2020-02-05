@@ -4,9 +4,7 @@
 
 Documentation and steps to setup Sakai in Docker for ByVrate. The current motivation for this is simply testing and sandbox. 
 
-A docker image was created from the docker file since no pre-existing images exist in DockerHub. At least not a clean version of 12.5. Therefore you must build the image before you can use Docker compose. After running the setup, you should be able to run Sakai 12.5 in Docker Desktop after everything is built.
-
-
+A docker image was created from the docker file since no pre-existing images exist in DockerHub. Therefore you must build the image before you can use Docker compose. After running the setup, you should be able to run Sakai in Docker Desktop after everything is built.
 
 > Note: A [gitmodule](https://git-scm.com/docs/gitmodules) is used to pull down Sakai source.
 
